@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #757575 border tablet*/
+/* #171717 background body*/
+
+body {
+    background-color: #171717 ;
+}
+.little_tablet{
+    color: #FFF;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#tablet {
+background-color: #000;
+border: 20px solid #757575;
+margin: 0 auto;
+width: 800px;
+height: 540px;
+border-radius: 12px;
+}
+
+#buttons {
+   display: flex;
+   height: 30px;
+   width: 100%;
+   justify-content: space-around;
+    
+   margin-bottom: 70px;
+   margin-top: 30px;
+   /* background-color: green; */
+    
+}
+#buttons input {
+    width: 30%;
+    background-color: black;
+    color: white;
+    /* border: 1px solid #FFF; */
+    border-radius: 4px;
+}
+
+.input_color{
+    background-color: red;
+}
+
+.input_texte{
+    background-color: yellow;
+}
+
+#screen {
+    display:grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(3, 110px);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+  
+   
+  
+}
+#screen div{
+    color : #FFF;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    height: 110px;
+    width: 100px;
+    
+    
+}
