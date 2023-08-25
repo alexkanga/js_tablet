@@ -29,3 +29,4 @@ contenu.addEventListener("input", function(e){
     currentBotton.textContent = contenu.value;
 }
 );
+//nous devons ajouter les contenus pour definir les objectifs pardefaut 
