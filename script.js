@@ -9,6 +9,7 @@ screen.addEventListener("click", function(e){
     inputTexte.value = "";
     inputColor.value = "";
     let screenButton = e.target;
+    
     //console.log("scren button clicked");
     inputColor.addEventListener("change", function(e) {
         console.log("input color");
