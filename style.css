@@ -25,7 +25,7 @@ background-color: #000;
 border: 20px solid #757575;
 margin: 0 auto;
 width: 800px;
-height: 540px;
+height: 530px;
 border-radius: 12px;
 }
 
@@ -46,15 +46,22 @@ border-radius: 12px;
     color: white;
     /* border: 1px solid #FFF; */
     border-radius: 4px;
+    text-align: center;
 }
 
-.input_color{
-    background-color: red;
-}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
 
-.input_texte{
-    background-color: yellow;
-}
 
 #screen {
     display:grid;
@@ -75,6 +82,8 @@ border-radius: 12px;
     border-radius: 4px;
     height: 110px;
     width: 100px;
+    cursor: pointer;
+    text-align: center;
     
     
 }
